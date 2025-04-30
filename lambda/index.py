@@ -54,7 +54,7 @@ def lambda_handler(event, context):
             "role": "user",
             "content": message
         })
-        fastapi_url = "https://87c8-34-19-37-115.ngrok-free.app"
+        fastapi_url = "https://87c8-34-19-37-115.ngrok-free.app/generate"
 
         # HTTPリクエストの準備
         llm_request_data = {
